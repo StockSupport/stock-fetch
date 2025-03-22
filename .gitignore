@@ -1,0 +1,43 @@
+# ▶ Python 가상환경 (.venv)
+.venv/
+venv/
+ENV/
+env/
+pyvenv.cfg
+.Python
+pip-selfcheck.json
+
+# ▶ Python 캐시
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ▶ 빌드 결과물
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ▶ 테스트/커버리지 관련
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+.tox/
+noxfile.py
+
+# ▶ 환경 변수
+.env
+.env.*
+
+# ▶ OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ▶ Jupyter Notebook (사용 시)
+.ipynb_checkpoints/
+
+# ▶ 기타
+*.log
